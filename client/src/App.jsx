@@ -1,10 +1,20 @@
-import "./App.css";
+import React from "react";
+
+// import Header from "./components/Header";
+// import Navbar from "./components/Navbar";
+import Global from "./styles/Global";
+
+import { Outlet } from "react-router-dom";
+// import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      
+        <Global />
+        <Outlet />
+      
+    </>
   );
 }
 
