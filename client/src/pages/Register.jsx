@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "../styles/Register";
 
 // import Navbar from "../components/Navbar";
 // import Header from "../components/Header";
