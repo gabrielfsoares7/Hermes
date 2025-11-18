@@ -1,15 +1,16 @@
 import { styled } from "styled-components";
+import bg from "../img/gotham-city-night-view-desktop-wallpaper-cover.jpg";
 
 export const Container = styled.div`
   
 
 .container {
     width: 450px;
-    background-color: rgba(65, 66, 66, 0.4);
+    background-color: rgba(19, 19, 19, 1);
     border: 2px sold rgba(255, 255, 255, 0.2);
     padding: 40px;
     border-radius: 10px;
-  };
+  }
 
   .container-login {
     display: flex;
@@ -18,35 +19,30 @@ export const Container = styled.div`
     min-height: 100vh;
     position: relative;
     z-index: 1;
-  };
+  }
 
   .container-login::before {
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../img/gotham-city-night-view-desktop-wallpaper-cover.jpg");
+    inset: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${bg});
     background-size: cover;
     background-position: center;
     z-index: -1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../img/gotham-city-night-view-desktop-wallpaper-cover.jpg");
-  };
+  }
 
   .container h1 {
     text-align: center;
     font-size: 30px;
     color: rgb(255, 255, 255);
-  };
+  }
 
   .container .input-field {
     position: relative;
     width: 100%;
     height: 50px;
     margin: 30px auto;
-  };
+  }
 
   .input-field input {
     width: 100%;
@@ -58,11 +54,11 @@ export const Container = styled.div`
     font-size: 16px;
     color: rgb(255, 255, 255);
     padding: 20px 45px;
-  };
+  }
 
   .input-field input::placeholder {
     color: rgb(255, 255, 255);
-  };
+  }
 
   .input-field .icon {
     position: absolute;
@@ -70,31 +66,32 @@ export const Container = styled.div`
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
-  };
+    color: #fff;
+  }
 
   .container .recall-forget {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
-  };
+  }
 
   .recall-forget label {
     color: rgb(255, 255, 255);
-  };
+  }
 
   .recall-forget input {
     margin-right: 5px;
-  };
+  }
 
   .recall-forget a {
     color: #fff;
     text-decoration: none;
-  };
+  }
 
   .recall-forget a:hover {
     text-decoration: underline;
-  };
+  }
 
   .container button {
     width: 100%;
@@ -108,23 +105,26 @@ export const Container = styled.div`
     font-size: 16px;
     font-weight: 600px;
     text-shadow: none;
-  };
+    font-weight: bold;
+    color: #fff;
+  }
 
   .container .Signup-link {
     font-size: 14px;
     text-align: center;
     margin: 20px 0 10px;
-  };
+    color: #fff;
+  }
 
   .container .Signup-link a {
     color: #6f6aff;
     text-decoration: none;
     text-shadow: none;
-  };
+  }
 
   .container .Signup-link a:hover {
     text-decoration: underline;
-  };
+  }
 
   .login {
     height: 100vh;
