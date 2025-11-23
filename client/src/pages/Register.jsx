@@ -6,11 +6,11 @@ import { Container } from "../styles/Register";
 
 const Registrar = () => {
   return (
-    <>
+    <Container>
       <div>
         <h1>Registrar</h1>
       </div>
-    </>
+    </Container>
   );
 };
 
