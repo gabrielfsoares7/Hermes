@@ -1,17 +1,13 @@
 import React from "react";
+import Header from "../Component/Header.jsx";
+
 
 // import Navbar from "../components/Navbar";
 // import Header from "../components/Header";
 
-const Home = () => {
+function Home() {
   return (
-    <>
-      <div>
-        <h1>HOME</h1>
-      </div>
-      {/* <Header />
-      <Navbar /> */}
-    </>
+    <Header/>
   );
 };
 
