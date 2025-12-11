@@ -8,7 +8,7 @@ const Register = () => {
 
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
-    const [password, setPassord] = useState("");
+    const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
 
     const handleSubmit = (event) => {
@@ -40,7 +40,7 @@ const Register = () => {
             </div>
 
             <div className="input-field">
-              <input type="password" placeholder="Senha" onChange={(e)=> setPassord(e.target.value)}/>
+              <input type="password" placeholder="Senha" onChange={(e)=> setPassword(e.target.value)}/>
               <FontAwesomeIcon icon={faLock} className="icon"/>
 
             </div>

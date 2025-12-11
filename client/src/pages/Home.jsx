@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "../Component/Header.jsx";
+
 
 // import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 
-const Home = () => {
+function Home() {
   return (
+<<<<<<< HEAD
     <>
       <div>
         <h1>HOME</h1>
@@ -12,6 +15,9 @@ const Home = () => {
       <Header />
       {/* <Navbar />  */}
     </>
+=======
+    <Header/>
+>>>>>>> 73e55f1c7aadf22df5df0866fe70b89cbc409c77
   );
 };
 
