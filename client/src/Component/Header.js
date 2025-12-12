@@ -14,5 +14,5 @@ export const Container = styled.header`
   > :nth-child(2) {
     margin-left: 40px;
     margin-right: auto;
-
+  }
   `;

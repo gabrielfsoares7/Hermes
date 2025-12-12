@@ -1,8 +1,3 @@
-import { styled } from "styled-components";
-
-export const Container = styled.div`
-  
-`;
 import styled from "styled-components";
 import bg from "../img/heyao9.jpg";
 

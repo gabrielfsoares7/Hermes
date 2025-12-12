@@ -14,7 +14,7 @@ function Header() {
       <Menu />
       <SearchBar />
     </Container>
-  );
+  ); 
 }
 
 export default Header;
