@@ -24,11 +24,24 @@ const CardMovies = () => {
 
   return (
     <ContainerCard>
-      <div>
         {movies.map((movie) => 
-          <h1>{movie.title}</h1>
-        )}
+          <div key={movie.id}>
+      <img 
+        src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+        alt={movie.title}
+      />
+      <div className="Texts">
+        <h1>{movie.title}</h1>
+      <div className="info">
+      <p>{movie.genres}</p>
+      <p className="averange">⭐{movie.vote_average.toFixed(1)}</p>
+      <p className="price-alugar">Alugar: R$ 19,90</p>
+      <p className="price-comprar">Comprar: R$ 50,90</p>
+    </div>
       </div>
+      
+    </div>
+        )}
     </ContainerCard>
   );
 };

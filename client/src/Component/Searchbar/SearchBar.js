@@ -1,26 +1,77 @@
 import { Component } from "react";
 import styled from "styled-components";
 
+
 export const SearchContainer = styled.div`
-  input {
-    padding-right: 20%;
-    padding: 8px 16px;
-    font-size: 16px;
-    border-radius: 6px;
-    border: #fff;
-    outline: none;
-    background-color: #2a2a2a;
-    color: #fff;
-    width: 200px;
-    height: 25px;
-    transition: background-color 0.3s ease;
+display: flex;
+padding: 10px;
+gap: 15%;
+margin: 10vh;
+
+
+.cart {
+  width: 11.5vh;
+  height: 5vh;
+  display: flex;
+  font-size: 100%;
+  align-items: center;
+  gap: 3%;
+  border-radius: 10%;
+  background: none;
+  color: white;
+  border-style: none;
+  border: 0.5px solid ;
+  padding: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cart:hover{
+  background-color: red;
+    color: black;
+    border-color: rgba(255, 255, 255, 1);
   }
 
-  input::placeholder{
-    color: #a0a0a0;
+  .singin:hover{
+  background-color: red;
+    color: black;
+    border-color: rgba(255, 255, 255, 1);
   }
-  input:focus{
-    background-color: #a3a3a3;
-  }
+
+.text-button{
+  color: white;
+  font-size: 2.3;
+  
+}
+.icon{
+  color: white;
+}
+
+
+.singin {
+  width: auto;
+  min-width: 120px;
+  height: 5vh;
+  display: flex;
+  font-size: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 10%;
+  background: none;
+  color: white;
+  border-style: none;
+  border: 0.5px solid ;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+
+}
+
+
+
 `;
 

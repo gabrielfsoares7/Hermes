@@ -20,6 +20,7 @@ export default createGlobalStyle`
         color: var(--black);
         font-size: 1.2rem;
         font-weight: 400;
+        background-color: #000;
     }
 
     &:focus {
