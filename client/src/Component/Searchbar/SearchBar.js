@@ -10,7 +10,7 @@ margin: 10vh;
 
 
 .cart {
-  width: 11.5vh;
+  width: 12vh;
   height: 5vh;
   display: flex;
   font-size: 100%;
@@ -21,22 +21,19 @@ margin: 10vh;
   color: white;
   border-style: none;
   border: 0.5px solid ;
-  padding: 9px;
+  padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .cart:hover{
-  background-color: red;
-    color: black;
-    border-color: rgba(255, 255, 255, 1);
-  }
+  background-color: oklch(0.646 0.222 41.116);
+    color: black;}
 
   .singin:hover{
-  background-color: red;
+  background-color: oklch(0.646 0.222 41.116);
     color: black;
-    border-color: rgba(255, 255, 255, 1);
   }
 
 .text-button{

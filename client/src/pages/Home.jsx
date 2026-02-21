@@ -12,7 +12,7 @@ function Home() {
       <div className="container-search">
         <h1>Transmitir, alugar e possuir</h1>
         <p>
-          Explore milhares de filmes. Alugue por 48 horas ou compre para sempre.
+          Explore milhares de filmes. Alugue por 48 horas ou adquira acesso permanente.
         </p>
         <input
           type="text"

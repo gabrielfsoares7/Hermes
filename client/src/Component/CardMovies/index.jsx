@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { ContainerCard } from "./style.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
+import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
 
 
 const CardMovies = () => {
@@ -34,7 +37,7 @@ const CardMovies = () => {
         <h1>{movie.title}</h1>
       <div className="info">
       <p>{movie.genres}</p>
-      <p className="averange">⭐{movie.vote_average.toFixed(1)}</p>
+      <p className="averange"><FontAwesomeIcon icon={faStar} /> {movie.vote_average.toFixed(1)}</p>
       <p className="price-alugar">Alugar: R$ 19,90</p>
       <p className="price-comprar">Comprar: R$ 50,90</p>
     </div>

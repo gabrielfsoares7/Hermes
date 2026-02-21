@@ -58,6 +58,10 @@ flex-direction: column;}
     color: white;
 }
 
+.averange icon{
+    color: white;
+}
+
 .Texts{
     margin: 5%;
 }

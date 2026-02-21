@@ -8,11 +8,12 @@ export const Container = styled.div`
   }
   .container-search h1 {
     color: #fff;
+    font-size: 55px;
   }
   .container-search p {
-    color: #616a71;
-    font-size: 16px;
-    margin-top: 1rem;
+    color: #e4e5e7cf;
+    font-size: 20px;
+    margin-top: 0.8;
   }
   .container-search .input-search {
     background-color: #121212;
