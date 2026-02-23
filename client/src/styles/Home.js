@@ -18,10 +18,10 @@ export const Container = styled.div`
   .container-search .input-search {
     background-color: #121212;
     border: 1px solid #292929;
-    padding: 10px;
+    padding: 11px 11px 11px 45px;
     width: 100%;
     border-radius: 8px;
-    color: #fff;
+    color: #ffffff;
     margin-top: 2rem;
   }
   .containe-btns-filter {
@@ -56,5 +56,18 @@ export const Container = styled.div`
     background-color: #5d5cff;
     opacity: 0.8;
     color: #fff;
+  }
+
+  .search-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  .search-icon{
+    position: absolute;
+    left: 12px;
+    top: 60%;
+    color: rgb(154, 153, 153);
+    
   }
 `;
