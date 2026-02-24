@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import bg from "../img/gotham-city-night-view-desktop-wallpaper-cover.jpg";
+import { useNavigate } from "react-router-dom";
 
 export const Container = styled.div`
   

@@ -40,7 +40,7 @@ const Login = () => {
         <button>Entrar</button>
 
         <div className='Signup-link'>
-          <p>Não tem uma conta? <a href="#">Registrar</a></p>
+          <p>Não tem uma conta? <a href="#"onClick={()=> navigate("/register")}>Registrar</a></p>
         </div>
       </form>
     </div>

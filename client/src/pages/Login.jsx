@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../styles/Login";
-
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
@@ -9,6 +9,7 @@ import { useState } from "react";
 // import Header from "../components/Header";
 
 const Login = () => {
+  const navigate = useNavigate();
   
   const [username, setUsername] = useState("");
   const [password, setPassord] = useState("");
@@ -54,7 +55,7 @@ const Login = () => {
 
             <div className="Signup-link">
               <p>
-                Não tem uma conta? <a href="#">Registrar</a>
+                Não tem uma conta? <a href="#"onClick={()=> navigate("/register")}>Registrar</a>
               </p>
             </div>
           </form>
