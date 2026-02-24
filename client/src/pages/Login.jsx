@@ -55,7 +55,7 @@ const Login = () => {
 
             <div className="Signup-link">
               <p>
-                Não tem uma conta? <a href="#"onClick={()=> navigate("/register")}>Registrar</a>
+                Não tem uma conta? <a href="#"onClick={()=> navigate("/re")}>Registrar</a>
               </p>
             </div>
           </form>

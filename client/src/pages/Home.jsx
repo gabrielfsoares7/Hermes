@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Component/Header.jsx";
 import CardMovies from "../Component/CardMovies/index.jsx";
-import { Container } from "../styles/home";
+import { Container } from "../styles/Home.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 

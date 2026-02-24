@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 import bg from "../img/gotham-city-night-view-desktop-wallpaper-cover.jpg";
-import { useNavigate } from "react-router-dom";
+
 
 export const Container = styled.div`
   
@@ -9,7 +9,7 @@ export const Container = styled.div`
     width: 450px;
     background-color: rgba(19, 19, 19, 1);
     border: 2px sold rgba(255, 255, 255, 0.2);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
   }
 
